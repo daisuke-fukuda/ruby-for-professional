@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ruby:
+    build: ruby
+    volumes:
+      - ./myapp:/myapp
+    tty: true
