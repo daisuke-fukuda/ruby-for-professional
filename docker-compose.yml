@@ -3,5 +3,5 @@ services:
   ruby:
     build: ruby
     volumes:
-      - ./myapp:/myapp
+      - ./ruby-book:/ruby-book
     tty: true
